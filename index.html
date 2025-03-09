@@ -1,0 +1,2058 @@
+<!DOCTYPE html>
+
+<!-- язык страницы -->
+<html lang="ru">
+
+<head>
+
+    <!-- Кодировка страницы -->
+    <meta charset="UTF-8">
+
+    <!-- Совместимость с Internet Explorer  -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Настройки адаптивности страницы  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- title -->
+    <title>Zlatmax</title>
+
+    <!-- Краткое описание страницы  -->
+    <meta name="description" content="Пишем не более 140 символов.">
+
+    <!-- Ключевые слова страницы  -->
+    <meta name="keywords" content="Пишем не более 20ти слов. Ключевые фразы разделяем запятой.">
+
+    <!-- Автор страницы -->
+    <meta name="Author" content="Sergei Pron">
+
+    <!-- Авторские права -->
+    <meta name="Copyright" content="Sergei Pron">
+
+    <!-- Адрес автора -->
+    <meta name="Address" content="Луна, кратер №97">
+
+    <!-- Изображение -->
+    <meta name="image" content="../icons/logo.png">
+
+    <!-- Управление доступом поисковых роботов к странице -->
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="robots" content="noimageindex, nofollow">
+
+    <!-- Редирект (перезагрузка) страницы. Задержка в секундах; url=Адрес сайта/страницы -->
+    <meta http-equiv="refresh" content="S; url=URL">
+
+    <!-- Отключает принудительную ссылку у номера телефона на iOS -->
+    <meta name="format-detection" content="telephone=no">
+
+    <!-- for Facebook -->
+    <!-- локализация сайта, для русскоязычного сайта ru_RU -->
+    <meta property="og:locale" content="ru_RU">
+
+    <!-- тип контента, по умолчанию используется article -->
+    <meta property="og:type" content="article / website">
+
+    <!-- заголовок страницы, который будет выводится в записи социальной сети -->
+    <meta property="og:title" content="Название">
+
+    <!-- описание страницы -->
+    <meta property="og:description" content="Описание страницы про META теги">
+
+    <!-- ссылка на изображение, которое будет публиковаться в записи -->
+    <meta property="og:image" content="../icons/logo.png">
+
+    <!-- ссылка на текущую страницу -->
+    <meta property="og:url" content="https://example.com">
+
+    <!-- название сайта -->
+    <meta property="og:site_name" content="Фрилансер по жизни">
+
+    <!-- for Twitter -->
+    <!-- Тип карты, по умолчанию используется summary -->
+    <meta name="twitter:card" content="summary">
+
+    <!-- Имя/логин автора -->
+    <meta name="twitter:site" content="Жека">
+
+    <!-- Название страницы -->
+    <meta name="twitter:title" content="META теги">
+
+    <!-- Описание страницы -->
+    <meta name="twitter:description" content="про META теги">
+
+    <!-- Cсылка на изображение -->
+    <meta name="twitter:image" content="../icons/logo.png">
+
+    <!-- Каноническая ссылка сайта-->
+    <link rel="canonical" href="https://example.com">
+
+    <!-- Внешние ресурсы нашего сайта для их быстрой загрузки-->
+    <link rel="preconnect" href="//fonts.gstatic.com">
+    <link rel="preconnect" href="//cdnjs.cloudflare.com">
+    <link rel="preconnect" href="//google-analytics.com">
+
+    <!-- создать здесь https://www.favicon-generator.org/, скачать архив и разместить его на сайте в папке isons-->
+    <!-- for Apple -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-icon-180x180.png">
+    <!-- favicon-->
+    <link rel="icon" type="image/png" sizes="192x192" href="./icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon-16x16.png">
+
+    <!-- Настройки для android устройств -->
+    <link rel="manifest" href="./icons/manifest.json">
+
+    <!-- Иконка для браузеров Microsoft -->
+    <meta name="msapplication-TileImage" content="./icons/ms-icon-144x144.png">
+
+    <!-- Цвет сайта -->
+    <meta name="msapplication-TileColor" content="#ffffff">
+
+    <!-- Цвет темы сайта -->
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Название сайта рядом с иконкой на рабочем столе -->
+    <meta name="apple-mobile-web-app-title" content="Название">
+
+    <!-- Открывать сайт на весь экран -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <!-- Не подсвечивать синим цветом адрес и телефон  -->
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+
+    <!-- favicon-->
+    <!-- <link rel="shortcut icon" href="favicon.ico"> -->
+    <link rel="icon" type="image/x-icon" href="./icons/favicon.svg">
+
+    <!-- Стили -->
+    <link rel="stylesheet" href="./files/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <!--[if lt IE 9]>
+
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+
+  <![endif]-->
+    <!--[if lt IE 9]>
+	   <link rel="stylesheet" type="text/css" href="./css/ie9.css">
+	   <![endif]-->
+
+    <!--[if lt IE 9]>
+	   <script>
+			document.createElement("header");
+			document.createElement("footer");
+			document.createElement("section");
+			document.createElement("aside");
+			document.createElement("nav");
+			document.createElement("article");
+			document.createElement("hgroup");
+			document.createElement("time");
+	   </script>
+	   <noscript>
+			<strong>Внимание!</strong>
+			Поскольку ваш браузер не поддерживает HTML5, некоторые элементы воспроизводятся с помощью
+			JScript.
+			Однако в вашем браузере скрипты отключены, пожалуйста, включите их, чтобы браузер смог
+			отобразить данную
+			страницу.
+	   </noscript>
+	   <![endif]-->
+
+</head>
+
+<body>
+    <header class="header">
+    <!-- menu -->
+    <!-- class for mobile  header__top--mobile -->
+    <div class="header__top top-header">
+        <div class="top-header__container">
+            <div class="top-header__menu menu">
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a class="menu__link" href="#">О&#160;нас</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Оплата и&#160;доставка</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Новости</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+            <a class="top-header__user _icon-user " href="#">Личный кабинет</a>
+
+            <!-- отображаются в мобильной версии -->
+            <a class="top-header__phone _icon-phone" href="#"></a>
+            <div class="top-header__block ">
+                <ul class="top-header__items hide">
+                    <li class="top-header__item"><a href="tel:+77771234567" class="top-header__link">8-800-777-46-66</a>
+                    </li>
+                    <li class="top-header__item"><a href="tel:+77771234567" class="top-header__link">8-800-777-46-67</a>
+                    </li>
+                    <li class="top-header__item"><a href="tel:+77771234568" class="top-header__link">8-800-777-46-68</a>
+                    </li>
+                    <li class="top-header__item"><a href="tel:+77771234569" class="top-header__link">8-800-777-46-69</a>
+                    </li>
+                    <li class="top-header__item"><a href="#" class="top-header__link top-header__callback2">Заказать
+                            звонок</a>
+                    </li>
+                </ul>
+                <div class="phones-header popup-overlay">
+                    <div class="popup-overlay__body">
+                        <div class="popup-overlay__contant">Содержимое всплывающего окна Содержимое всплывающего
+                            окна Содержимое всплывающего окна</div>
+                        <button type="button" class="popup-overlay__button">X</button>
+                    </div>
+                </div>
+            </div>
+
+            <a class="top-header__user2 _icon-user " href="#"></a>
+            <a class="top-header__heart _icon-heart2" href="#"></a>
+            <a class="top-header__location _icon-location" href="#"></a>
+            <a class="top-header__busket _icon-busket" href="#"></a>
+            <!-- /отображаются в мобильной версии -->
+
+            <!-- переброска блоков actions-header -->
+            <div class="actions-header__location _icon-location">
+                <a href="#" class="actions-header__link">Москва</a>
+            </div>
+            <div class="actions-header__phones phones-header--menu">
+                <a href="tel:+77771234566" class="phones-header__link phones-header__first">8-800-777-46-66</a>
+                <button type="button" class="phones-header__arrow _icon-down"></button>
+                <ul class="phones-header__items hide">
+                    <li class="phones-header__item"><a href="tel:+77771234567"
+                            class="phones-header__link">8-800-777-46-67</a></li>
+                    <li class="phones-header__item"><a href="tel:+77771234568"
+                            class="phones-header__link">8-800-777-46-68</a></li>
+                    <li class="phones-header__item"><a href="tel:+77771234569"
+                            class="phones-header__link">8-800-777-46-69</a></li>
+                </ul>
+
+                <button type="button" class="phones-header__callback">Заказать звонок</button>
+                <div class="phones-header popup-overlay">
+                    <div class="popup-overlay__body">
+                        <div class="popup-overlay__contant">Содержимое всплывающего окна Содержимое всплывающего
+                            окна Содержимое всплывающего окна</div>
+                        <button type="button" class="popup-overlay__button">X</button>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="actions-header__favorite actions-header__favorite--menu _icon-heart2"></a>
+
+            <div class="actions-header__cart cart-header _icon-busket"><span>0</span>
+                <div class="cart-header__body">
+                    <div class="cart-header__summ">
+                        <p>0 р.</p>
+                    </div>
+                    <div class="cart-header__order"><a href="#" class="cart-header__link">Оформить заказ</a></div>
+                </div>
+
+            </div>
+            <!-- /переброска блоков actions-header -->
+
+            <div class="top-header__burger">
+                <div class="top-header__btn">
+                    <div class="top-header__icon"></div>
+                </div>
+            </div>
+            </a>
+        </div>
+    </div>
+    <div class="header__body body-header">
+        <div class="body-header__container">
+            <a href="#" class="body-header__logo"><img src="./img/header/logo.svg" alt="zlatmax" /></a>
+
+            <div class="body-header__search search">
+                <form action="#" class="search__form">
+                    <input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Поиск"
+                        class="search__input" />
+                    <button type="submit" class="search__button _icon-search"></button>
+                </form>
+            </div>
+            <div class="body-header__actions actions-header">
+
+                <div class="actions-header__location _icon-location">
+                    <a href="#" class="actions-header__link">Москва</a>
+                </div>
+
+                <div class="actions-header__phones phones-header">
+                    <a href="tel:+77771234566" class="phones-header__link phones-header__first">8-800-777-46-66</a>
+                    <button type="button" class="phones-header__arrow _icon-down"></button>
+                    <ul class="phones-header__items hide">
+                        <li class="phones-header__item"><a href="tel:+77771234567"
+                                class="phones-header__link">8-800-777-46-67</a></li>
+                        <li class="phones-header__item"><a href="tel:+77771234568"
+                                class="phones-header__link">8-800-777-46-68</a></li>
+                        <li class="phones-header__item"><a href="tel:+77771234569"
+                                class="phones-header__link">8-800-777-46-69</a></li>
+                    </ul>
+
+                    <button type="button" class="phones-header__callback">Заказать звонок</button>
+                    <!-- модальное окно popup-->
+                    <div class="phones-header popup-overlay">
+                        <div class="popup-overlay__body">
+                            <div class="popup-overlay__contant">Содержимое всплывающего окна Содержимое всплывающего
+                                окна Содержимое всплывающего окна</div>
+                            <button type="button" class="popup-overlay__button">X</button>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="#" class="actions-header__favorite  _icon-heart2"></a>
+
+                <div class="actions-header__cart cart-header _icon-busket"><span>0</span>
+                    <div class="cart-header__body">
+                        <div class="cart-header__summ">
+                            <p>0 р.</p>
+                        </div>
+                        <div class="cart-header__order"><a href="#" class="cart-header__link">Оформить заказ</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="header__catalog catalog-header">
+        <div class="catalog-header__container">
+            <div class="catalog-header__menu menu2">
+                <nav class="menu2__catalog">
+                    <ul class="menu2__list">
+                        <li class="menu2__item"><a href="#" class="menu2__link" data-el="1">Каталог ножей</a></li>
+                        <li class="menu2__item"><a href="#" class="menu2__link" data-el="2">Клинковое оружие</a>
+                        </li>
+                        <li class="menu2__item"><a href="#" class="menu2__link" data-el="3">Сувенирые изелия</a>
+                        </li>
+                        <li class="menu2__item"><a href="#" class="menu2__link" data-el="4">Фонари ARMYTEK</a></li>
+                        <li class="menu2__item"><a href="#" class="menu2__link" data-el="5">Сопутствующие товары</a>
+                        </li>
+                    </ul>
+                    <div class="menu2__sub-menu sub-menu none">
+
+                        <div class="sub-menu__block">
+                            <div class="sub-menu__column none" data-d="1">
+                                <a href="Категория ножей" class="sub-menu__category">Категория ножей</a>
+                                <ul class="sub-menu__list">
+                                    <li class="sub-menu__item"><a href="#" class="sub-menu__link">Разделочные
+                                            ножи</a>
+                                    </li>
+                                    <li class="sub-menu__item"><a href="#" class="sub-menu__link">Туристические
+                                            ножи</a>
+                                    </li>
+                                    <li class="sub-menu__item"><a href="#" class="sub-menu__link">Разделочные
+                                            ножи</a>
+                                    </li>
+                                    <li class="sub-menu__item"><a href="#" class="sub-menu__link">Ножи охотничьи</a>
+                                    </li>
+                                    <li class="sub-menu__item"><a href="#" class="sub-menu__link">Булатные ножи</a>
+                                    </li>
+                                    <li class="sub-menu__item"><a href="#" class="sub-menu__link">Тактического
+                                            назначения</a></li>
+                                    <li class="sub-menu__item"><a href="#" class="sub-menu__link">Метательные
+                                            ножи</a>
+                                    </li>
+                                    <li class="sub-menu__item"><a href="#" class="sub-menu__link">Мачете и&#160;курки</a>
+                                    </li>
+                                    <li class="sub-menu__item"><a href="#" class="sub-menu__link">Ножи кухонные</a>
+                                    </li>
+                                </ul>
+                                <div class="sub-menu__bottom"><a href="#" class="sub-menu__all">Смотреть все</a>
+                                </div>
+                            </div>
+                            <div class="sub-menu__column none" data-d="2">
+                                <a href=" Категория ножей" class="sub-menu__category">Производство ножей</a>
+                                <ul class="sub-menu__list">
+                                    <li class="sub-menu__item"><a href="#" class="sub-menu__link">Ножи АИР</a>
+                                    </li>
+                                    <li class="sub-menu__item"><a href="#" class="sub-menu__link">Ножи ЗИК</a>
+                                    </li>
+                                    <li class="sub-menu__item"><a href="#" class="sub-menu__link">Ножи ЗЗОСС</a>
+                                    </li>
+                                    <li class="sub-menu__item"><a href="#" class="sub-menu__link">Ножи РОСоружие</a>
+                                    </li>
+                                    <li class="sub-menu__item"><a href="#" class="sub-menu__link">Ножи Оружейник</a>
+                                    </li>
+                                    <li class="sub-menu__item"><a href="#" class="sub-menu__link">Булат Сергея
+                                            Баранова</a></li>
+                                    <li class="sub-menu__item"><a href="#" class="sub-menu__link">Метательные
+                                            ножи</a>
+                                    </li>
+                                    <li class="sub-menu__item"><a href="#" class="sub-menu__link">Булат Андрея
+                                            Умерова</a>
+                                    </li>
+                                    <li class="sub-menu__item"><a href="#" class="sub-menu__link">Ножи Златко</a>
+                                    </li>
+                                    <li class="sub-menu__item"><a href="#" class="sub-menu__link">Ножи Стиль-М</a>
+                                    </li>
+                                    <li class="sub-menu__item"><a href="#" class="sub-menu__link">Оружейная
+                                            компания</a>
+                                    </li>
+                                </ul>
+                                <div class="sub-menu__bottom"><a href="#" class="sub-menu__all">Смотреть все</a>
+                                </div>
+                            </div>
+                            <div class="sub-menu__column none" data-d="3">
+                                <a href="Категория ножей" class="sub-menu__category">Ножи по&#160;маркам стали</a>
+                                <ul class="sub-menu__list">
+                                    <li class="sub-menu__item"><a href="#" class="sub-menu__link">Ножи из&#160;стали
+                                            40&#215;102С2М</a>
+                                    </li>
+                                    <li class="sub-menu__item"><a href="#" class="sub-menu__link">Ножи из&#160;стали
+                                            95&#215;18</a>
+                                    </li>
+                                    <li class="sub-menu__item"><a href="#" class="sub-menu__link">Ножи из&#160;стали
+                                            100&#215;13м</a>
+                                    </li>
+                                    <li class="sub-menu__item"><a href="#" class="sub-menu__link">Ножи из&#160;стали
+                                            110&#215;18м-ШД</a>
+                                    </li>
+                                    <li class="sub-menu__item"><a href="#" class="sub-menu__link">Ножи из&#160;стали
+                                            ЭИ-107
+                                            ТЦ</a></li>
+                                    <li class="sub-menu__item"><a href="#" class="sub-menu__link">Ножи из&#160;стали
+                                            50&#215;14МФ</a></li>
+                                    <li class="sub-menu__item"><a href="#" class="sub-menu__link">Ножи из&#160;стали
+                                            AUS-8</a>
+                                    </li>
+                                    <li class="menu-sub__item"><a href="#" class="sub-menu__link">Ножи из&#160;стали
+                                            К340</a>
+                                    </li>
+                                    <li class="sub-menu__item"><a href="#" class="sub-menu__link">Ножи из&#160;стали
+                                            M390</a>
+                                    </li>
+                                    <li class="sub-menu__item"><a href="#" class="sub-menu__link">Ножи из&#160;стали
+                                            ЭП-766</a></li>
+                                </ul>
+                                <div class="sub-menu__bottom"><a href="#" class="sub-menu__all">Смотреть все</a>
+                                </div>
+                            </div>
+                            <div class="sub-menu__column none" data-d="4">
+                                <a href="Категория ножей" class="sub-menu__category">Заточка и&#160;полировка ножей</a>
+                                <ul class="sub-menu__list">
+                                    <li class="sub-menu__item"><a href="#" class="sub-menu__link">Паста ГОИ</a>
+                                    </li>
+                                    <li class="sub-menu__item"><a href="#" class="sub-menu__link">Алмазная паста</a>
+                                    </li>
+                                    <li class="sub-menu__item"><a href="#" class="sub-menu__link">Бруски и&#160;камни для
+                                            заточки</a>
+                                    </li>
+                                    <li class="sub-menu__item"><a href="#" class="sub-menu__link">Заточные
+                                            системы</a>
+                                    </li>
+                                </ul>
+                                <div class="sub-menu__bottom"><a href="#" class="sub-menu__all">Смотреть все</a>
+                                </div>
+                            </div>
+                            <div class="sub-menu__column none" data-d="5">
+                                <a href="Категория ножей" class="sub-menu__category">Ножевая мастерская</a>
+                                <ul class="sub-menu__list">
+                                    <li class="sub-menu__item"><a href="#" class="sub-menu__link">Ножевые клинки</a>
+                                    </li>
+                                    <li class="sub-menu__item"><a href="#" class="sub-menu__link">Заготовки для
+                                            ножей</a>
+                                    </li>
+                                    <li class="sub-menu__item"><a href="#" class="sub-menu__link">Литье для
+                                            ножей</a>
+                                    </li>
+                                    <li class="sub-menu__item"><a href="#" class="sub-menu__link">Материалы для
+                                            рукоятей</a>
+                                    </li>
+                                    <li class="sub-menu__item"><a href="#" class="sub-menu__link">Уход за&#160;рукоятиями
+                                            ножей</a></li>
+
+                                </ul>
+                                <div class="sub-menu__bottom"><a href="#" class="sub-menu__all">Смотреть все</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+    <main class="page">
+        <section class="first">
+    <div class="first__container">
+        <div class="first-top">
+            <div class="first-top__left">
+                <div class="swiper">
+
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <h2 data-swiper-parallax="-150" class="first-top__title">Интернет магазин сертифицированных
+                                I
+                            </h2>
+                            <p data-swiper-parallax="-200" class="first-top__subtitle">златоустовских ножей</p>
+                            <p data-swiper-parallax="-250" class="first-top__text">Добро пожаловать на&#160;официальный сайт
+                                &#171;ЗЛАТМАКС&#187;! В&#160;нашем магазине
+                                представлен наиболее широкий выбор Златоустовских ножей от&#160;Златоустовских
+                                Оружейных Фабрик и&#160;компаний, мы&#160;являемся официальными поставщиками.</p>
+                            <a data-swiper-parallax="-300" class="first-top__button button" href="#">Подробнее</a>
+                        </div>
+                        <div class="swiper-slide">
+                            <h2 data-swiper-parallax="-150" class="first-top__title">Интернет магазин сертифицированных
+                                II</h2>
+                            <p data-swiper-parallax="-200" class="first-top__subtitle">златоустовских ножей</p>
+                            <p data-swiper-parallax="-250" class="first-top__text">Добро пожаловать на&#160;официальный сайт
+                                &#171;ЗЛАТМАКС&#187;! В&#160;нашем магазине
+                                представлен наиболее широкий выбор Златоустовских ножей от&#160;Златоустовских
+                                Оружейных Фабрик и&#160;компаний, мы&#160;являемся официальными поставщиками.</p>
+                            <a data-swiper-parallax="-300" class="first-top__button button" href="#">Подробнее</a>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide">
+                                <h2 data-swiper-parallax="-150" class="first-top__title">Интернет магазин
+                                    сертифицированных III</h2>
+                                <p data-swiper-parallax="-200" class="first-top__subtitle">златоустовских ножей</p>
+                                <p data-swiper-parallax="-250" class="first-top__text">Добро пожаловать на&#160;официальный
+                                    сайт &#171;ЗЛАТМАКС&#187;! В&#160;нашем
+                                    магазине
+                                    представлен наиболее широкий выбор Златоустовских ножей от&#160;Златоустовских
+                                    Оружейных Фабрик и&#160;компаний, мы&#160;являемся официальными поставщиками.</p>
+                                <a data-swiper-parallax="-300" class="first-top__button button" href="#">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    <div class="swiper-pagination__span"><span class="one-slide">0</span> / <span
+                            class="all-slides">0</span></div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
+                    <!-- If we need scrollbar -->
+                    <div class="swiper-scrollbar"></div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="first-bottom">
+            <div class="first-bottom__items">
+                <div class="first-bottom__item">
+                    <div class="first-bottom__image">
+                        <img src="./img/first/image1.svg" alt="Гарантия" />
+                    </div>
+                    <div class="first-bottom__text">Гарантия 100% возврата <br>
+                        денежных средств</div>
+                </div>
+                <div class="first-bottom__item">
+                    <div class="first-bottom__image">
+                        <img src="./img/first/image2.svg" alt="Доставка" />
+                    </div>
+                    <div class="first-bottom__text">Доставка по&#160;России, <br>
+                        Казахстану и&#160;Белоруссии</div>
+                </div>
+                <div class="first-bottom__item">
+                    <div class="first-bottom__image">
+                        <img src="./img/first/image3.svg" alt="Регистрация" />
+                    </div>
+                    <div class="first-bottom__text">Возможность оформление <br>
+                        заказа без регистрации</div>
+                </div>
+                <div class="first-bottom__item">
+                    <div class="first-bottom__image">
+                        <img src="./img/first/image4.svg" alt="Скидкаs" />
+                    </div>
+                    <div class="first-bottom__text">Скидки постоянным <br>
+                        покупателям</div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</section>
+        <section class="second">
+    <div class="second__container">
+        <div class="second__body">
+            <h2 class="second__title">Интернет-магазин сертифицированных Златоустовских ножей</h2>
+            <p class="second__text">Добро пожаловать на&#160;официальный сайт &#171;ЗЛАТМАКС&#187;! В&#160;нашем магазине представлен
+                наиболее
+                широкий выбор Златоустовских ножей от&#160;Златоустовских Оружейных Фабрик и&#160;компаний, мы&#160;являемся
+                официальными
+                поставщиками. В&#160;нашем магазине Вы&#160;можете посмотреть, сравнить, оценить и&#160;купить понравившийся
+                златоустовский
+                нож
+                с&#160;официальной гарантией, не&#160;выходя из&#160;дома, имея под рукой только устройство с&#160;выходом в&#160;интернет (ПК,
+                ноутбук,
+                планшет, смартфон) и&#160;телефон.
+            </p>
+            <p class="second__text">
+                Оформить заказ можно без лишних усилий, Вам необходимо только выбрать нож, нажать кнопку &#171;Купить&#187;
+                перейти в
+                корзину и&#160;заполнить предложенные поля, и&#160;Ваш заказ уже принят! Наши менеджеры оперативно свяжутся с&#160;Вами
+                по
+                телефону и&#160;обсудят детали заказа. Мы&#160;осуществляем доставку продукции в&#160;любой населённый пункт по&#160;всей
+                России,
+                Казахстану и&#160;Белоруссии.</p>
+        </div>
+
+    </div>
+</section>
+        <section class="catalog">
+    <div class="catalog__container">
+        <h2 class="catalog__title visually-hidden">Каталог товаров</h2>
+        <div class="catalog__cards cards-catalog">
+            <div class="cards-catalog card">
+                <div class="card__body">
+                    <a class="card__title" href="#">Каталог ножей</a>
+                    <ul class="card__list">
+                        <li class="card__item"><a class="card__link" href="#">Разделочные</a></li>
+                        <li class="card__item"><a class="card__link" href="#">Туристические</a></li>
+                        <li class="card__item"><a class="card__link" href="#">Охотничьи</a></li>
+                    </ul>
+                </div>
+                <div class="card__image"><img src="./img/catalog/1.png" alt="Каталог ножей">
+                </div>
+            </div>
+            <div class="cards-catalog card">
+                <div class="card__body">
+                    <a class="card__title" href="#">Среднеклинковое оружие</a>
+                    <ul class="card__list">
+                        <li class="card__item"><a class="card__link" href="#">Разделочные</a></li>
+                        <li class="card__item"><a class="card__link" href="#">Туристические</a></li>
+                        <li class="card__item"><a class="card__link" href="#">Охотничьи</a></li>
+                    </ul>
+                </div>
+                <div class="card__image"><img src="./img/catalog/2.png" alt="Среднеклинковое оружие">
+                </div>
+            </div>
+            <div class="cards-catalog card">
+                <div class="card__body">
+                    <a class="card__title" href="#">Длинноклинковое оружие</a>
+                    <ul class="card__list">
+                        <li class="card__item"><a class="card__link" href="#">Разделочные</a></li>
+                        <li class="card__item"><a class="card__link" href="#">Туристические</a></li>
+                        <li class="card__item"><a class="card__link" href="#">Охотничьи</a></li>
+                    </ul>
+                </div>
+                <div class="card__image"><img src="./img/catalog/3.png" alt="Длинноклинковое оружие">
+                </div>
+            </div>
+            <div class="cards-catalog card">
+                <div class="card__body">
+                    <a class="card__title" href="#">Сувенирные изделия</a>
+                    <ul class="card__list">
+                        <li class="card__item"><a class="card__link" href="#">Разделочные</a></li>
+                        <li class="card__item"><a class="card__link" href="#">Туристические</a></li>
+                        <li class="card__item"><a class="card__link" href="#">Охотничьи</a></li>
+                    </ul>
+                </div>
+                <div class="card__image"><img src="./img/catalog/4.png" alt="Сувенирные изделия">
+                </div>
+            </div>
+            <div class="cards-catalog card">
+                <div class="card__body">
+                    <a class="card__title" href="#">Сопутствующие товары</a>
+                    <ul class="card__list">
+                        <li class="card__item"><a class="card__link" href="#">Разделочные</a></li>
+                        <li class="card__item"><a class="card__link" href="#">Туристические</a></li>
+                        <li class="card__item"><a class="card__link" href="#">Охотничьи</a></li>
+                    </ul>
+                </div>
+                <div class="card__image"><img src="./img/catalog/5.png" alt="Сопутствующие товары">
+                </div>
+            </div>
+            <div class="cards-catalog card">
+                <div class="card__body">
+                    <a class="card__title" href="#">Ножевая мастерская</a>
+                    <ul class="card__list">
+                        <li class="card__item"><a class="card__link" href="#">Разделочные</a></li>
+                        <li class="card__item"><a class="card__link" href="#">Туристические</a></li>
+                        <li class="card__item"><a class="card__link" href="#">Охотничьи</a></li>
+                    </ul>
+                </div>
+                <div class="card__image"><img src="./img/catalog/6.png" alt="Ножевая мастерская">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+        <section class="hits">
+    <div class="hits__container">
+        <div class="hits__top">
+            <h2 class="hits__title">Хиты продаж</h2>
+            <a class="hits__link _icon-right" href="#">Перейти в&#160;каталог</a>
+        </div>
+        <div class="hits__cards cards3 swiper-container">
+            <div class="cards3__slider swiper-wrapper">
+                <article class="cards3__body swiper-slide">
+                    <div class="cards3__image"><img src="./img/hits/1.png" alt="knife" /></div>
+                    <a class="cards3__title" href="#">Нож Лиса</a>
+                    <div class="cards3__info">
+                        <p class="cards3__size">95&#215;18</p>
+                        <p class="cards3__material">Орех, Алюминий</p>
+                    </div>
+                    <div class="cards3__rating">
+                        <div class="cards3__stars rating">
+                            <form class="rating__form" method="GET" action="#" enctype="multipart/form-data">
+                                <div class="rating rating_set">
+                                    <div class="rating__body">
+                                        <div class="rating__active"></div>
+                                        <div class="rating__items">
+                                            <input type="radio" value="1" class="rating__item" name="rating" />
+                                            <input type="radio" value="2" class="rating__item" name="rating" />
+                                            <input type="radio" value="3" class="rating__item" name="rating" />
+                                            <input type="radio" value="4" class="rating__item" name="rating" />
+                                            <input type="radio" value="5" class="rating__item" name="rating" />
+                                        </div>
+                                    </div>
+                                    <div class="rating__value">3.6</div>
+                                </div>
+                                <!-- <button type="submit" class="form__btn btn">Отправить</button> -->
+                            </form>
+                        </div>
+                        <div class="cards3__reviews">12 отзывов</div>
+                    </div>
+                    <div class="cards3__cost">
+                        <p class="cards3__price">2 719 р.</p>
+                        <div>
+                            <a href="#" class="cards3__scales _icon-counter"></a>
+                            <a href="#" class="cards3__heart _icon-heart"></a>
+                        </div>
+                    </div>
+                    <button type="submit" class="cards3__button">
+                        <span class="_icon-busket"></span> В&#160;корзину</button>
+                </article>
+
+                <article class="cards3__body swiper-slide">
+                    <div class="cards3__image"><img src="./img/hits/1.png" alt="knife" /></div>
+                    <a class="cards3__title" href="#">Нож Лиса</a>
+                    <div class="cards3__info">
+                        <p class="cards3__size">95&#215;18</p>
+                        <p class="cards3__material">Орех, Алюминий</p>
+                    </div>
+                    <div class="cards3__rating">
+                        <div class="cards3__stars rating">
+                            <form class="rating__form" method="GET" action="#" enctype="multipart/form-data">
+                                <div class="rating rating_set">
+                                    <div class="rating__body">
+                                        <div class="rating__active"></div>
+                                        <div class="rating__items">
+                                            <input type="radio" value="1" class="rating__item" name="rating" />
+                                            <input type="radio" value="2" class="rating__item" name="rating" />
+                                            <input type="radio" value="3" class="rating__item" name="rating" />
+                                            <input type="radio" value="4" class="rating__item" name="rating" />
+                                            <input type="radio" value="5" class="rating__item" name="rating" />
+                                        </div>
+                                    </div>
+                                    <div class="rating__value">3.6</div>
+                                </div>
+                                <!-- <button type="submit" class="form__btn btn">Отправить</button> -->
+                            </form>
+                        </div>
+                        <div class="cards3__reviews">12 отзывов</div>
+                    </div>
+                    <div class="cards3__cost">
+                        <p class="cards3__price">2 719 р.</p>
+                        <div>
+                            <a href="#" class="cards3__scales _icon-counter"></a>
+                            <a href="#" class="cards3__heart _icon-heart"></a>
+                        </div>
+                    </div>
+                    <button type="submit" class="cards3__button">
+                        <span class="_icon-busket"></span> В&#160;корзину</button>
+                </article>
+
+                <article class="cards3__body swiper-slide">
+                    <div class="cards3__image"><img src="./img/hits/1.png" alt="knife" /></div>
+                    <a class="cards3__title" href="#">Нож Лиса</a>
+                    <div class="cards3__info">
+                        <p class="cards3__size">95&#215;18</p>
+                        <p class="cards3__material">Орех, Алюминий</p>
+                    </div>
+                    <div class="cards3__rating">
+                        <div class="cards3__stars rating">
+                            <form class="rating__form" method="GET" action="#" enctype="multipart/form-data">
+                                <div class="rating rating_set">
+                                    <div class="rating__body">
+                                        <div class="rating__active"></div>
+                                        <div class="rating__items">
+                                            <input type="radio" value="1" class="rating__item" name="rating" />
+                                            <input type="radio" value="2" class="rating__item" name="rating" />
+                                            <input type="radio" value="3" class="rating__item" name="rating" />
+                                            <input type="radio" value="4" class="rating__item" name="rating" />
+                                            <input type="radio" value="5" class="rating__item" name="rating" />
+                                        </div>
+                                    </div>
+                                    <div class="rating__value">3.6</div>
+                                </div>
+                                <!-- <button type="submit" class="form__btn btn">Отправить</button> -->
+                            </form>
+                        </div>
+                        <div class="cards3__reviews">12 отзывов</div>
+                    </div>
+                    <div class="cards3__cost">
+                        <p class="cards3__price">2 719 р.</p>
+                        <div>
+                            <a href="#" class="cards3__scales _icon-counter"></a>
+                            <a href="#" class="cards3__heart _icon-heart"></a>
+                        </div>
+                    </div>
+                    <button type="submit" class="cards3__button">
+                        <span class="_icon-busket"></span> В&#160;корзину</button>
+                </article>
+
+                <article class="cards3__body swiper-slide">
+                    <div class="cards3__image"><img src="./img/hits/1.png" alt="knife" /></div>
+                    <a class="cards3__title" href="#">Нож Лиса</a>
+                    <div class="cards3__info">
+                        <p class="cards3__size">95&#215;18</p>
+                        <p class="cards3__material">Орех, Алюминий</p>
+                    </div>
+                    <div class="cards3__rating">
+                        <div class="cards3__stars rating">
+                            <form class="rating__form" method="GET" action="#" enctype="multipart/form-data">
+                                <div class="rating rating_set">
+                                    <div class="rating__body">
+                                        <div class="rating__active"></div>
+                                        <div class="rating__items">
+                                            <input type="radio" value="1" class="rating__item" name="rating" />
+                                            <input type="radio" value="2" class="rating__item" name="rating" />
+                                            <input type="radio" value="3" class="rating__item" name="rating" />
+                                            <input type="radio" value="4" class="rating__item" name="rating" />
+                                            <input type="radio" value="5" class="rating__item" name="rating" />
+                                        </div>
+                                    </div>
+                                    <div class="rating__value">3.6</div>
+                                </div>
+                                <!-- <button type="submit" class="form__btn btn">Отправить</button> -->
+                            </form>
+                        </div>
+                        <div class="cards3__reviews">12 отзывов</div>
+                    </div>
+                    <div class="cards3__cost">
+                        <p class="cards3__price">2 719 р.</p>
+                        <div>
+                            <a href="#" class="cards3__scales _icon-counter"></a>
+                            <a href="#" class="cards3__heart _icon-heart"></a>
+                        </div>
+                    </div>
+                    <button type="submit" class="cards3__button">
+                        <span class="_icon-busket"></span> В&#160;корзину</button>
+                </article>
+
+                <article class="cards3__body swiper-slide">
+                    <div class="cards3__image"><img src="./img/hits/1.png" alt="knife" /></div>
+                    <a class="cards3__title" href="#">Нож Лиса</a>
+                    <div class="cards3__info">
+                        <p class="cards3__size">95&#215;18</p>
+                        <p class="cards3__material">Орех, Алюминий</p>
+                    </div>
+                    <div class="cards3__rating">
+                        <div class="cards3__stars rating">
+                            <form class="rating__form" method="GET" action="#" enctype="multipart/form-data">
+                                <div class="rating rating_set">
+                                    <div class="rating__body">
+                                        <div class="rating__active"></div>
+                                        <div class="rating__items">
+                                            <input type="radio" value="1" class="rating__item" name="rating" />
+                                            <input type="radio" value="2" class="rating__item" name="rating" />
+                                            <input type="radio" value="3" class="rating__item" name="rating" />
+                                            <input type="radio" value="4" class="rating__item" name="rating" />
+                                            <input type="radio" value="5" class="rating__item" name="rating" />
+                                        </div>
+                                    </div>
+                                    <div class="rating__value">3.6</div>
+                                </div>
+                                <!-- <button type="submit" class="form__btn btn">Отправить</button> -->
+                            </form>
+                        </div>
+                        <div class="cards3__reviews">12 отзывов</div>
+                    </div>
+                    <div class="cards3__cost">
+                        <p class="cards3__price">2 719 р.</p>
+                        <div>
+                            <a href="#" class="cards3__scales _icon-counter"></a>
+                            <a href="#" class="cards3__heart _icon-heart"></a>
+                        </div>
+                    </div>
+                    <button type="submit" class="cards3__button">
+                        <span class="_icon-busket"></span> В&#160;корзину</button>
+                </article>
+
+                <article class="cards3__body swiper-slide">
+                    <div class="cards3__image"><img src="./img/hits/1.png" alt="knife" /></div>
+                    <a class="cards3__title" href="#">Нож Лиса</a>
+                    <div class="cards3__info">
+                        <p class="cards3__size">95&#215;18</p>
+                        <p class="cards3__material">Орех, Алюминий</p>
+                    </div>
+                    <div class="cards3__rating">
+                        <div class="cards3__stars rating">
+                            <form class="rating__form" method="GET" action="#" enctype="multipart/form-data">
+                                <div class="rating rating_set">
+                                    <div class="rating__body">
+                                        <div class="rating__active"></div>
+                                        <div class="rating__items">
+                                            <input type="radio" value="1" class="rating__item" name="rating" />
+                                            <input type="radio" value="2" class="rating__item" name="rating" />
+                                            <input type="radio" value="3" class="rating__item" name="rating" />
+                                            <input type="radio" value="4" class="rating__item" name="rating" />
+                                            <input type="radio" value="5" class="rating__item" name="rating" />
+                                        </div>
+                                    </div>
+                                    <div class="rating__value">3.6</div>
+                                </div>
+                                <!-- <button type="submit" class="form__btn btn">Отправить</button> -->
+                            </form>
+                        </div>
+                        <div class="cards3__reviews">12 отзывов</div>
+                    </div>
+                    <div class="cards3__cost">
+                        <p class="cards3__price">2 719 р.</p>
+                        <div>
+                            <a href="#" class="cards3__scales _icon-counter"></a>
+                            <a href="#" class="cards3__heart _icon-heart"></a>
+                        </div>
+                    </div>
+                    <button type="submit" class="cards3__button">
+                        <span class="_icon-busket"></span> В&#160;корзину</button>
+                </article>
+
+                <article class="cards3__body swiper-slide">
+                    <div class="cards3__image"><img src="./img/hits/1.png" alt="knife" /></div>
+                    <a class="cards3__title" href="#">Нож Лиса</a>
+                    <div class="cards3__info">
+                        <p class="cards3__size">95&#215;18</p>
+                        <p class="cards3__material">Орех, Алюминий</p>
+                    </div>
+                    <div class="cards3__rating">
+                        <div class="cards3__stars rating">
+                            <form class="rating__form" method="GET" action="#" enctype="multipart/form-data">
+                                <div class="rating rating_set">
+                                    <div class="rating__body">
+                                        <div class="rating__active"></div>
+                                        <div class="rating__items">
+                                            <input type="radio" value="1" class="rating__item" name="rating" />
+                                            <input type="radio" value="2" class="rating__item" name="rating" />
+                                            <input type="radio" value="3" class="rating__item" name="rating" />
+                                            <input type="radio" value="4" class="rating__item" name="rating" />
+                                            <input type="radio" value="5" class="rating__item" name="rating" />
+                                        </div>
+                                    </div>
+                                    <div class="rating__value">3.6</div>
+                                </div>
+                                <!-- <button type="submit" class="form__btn btn">Отправить</button> -->
+                            </form>
+                        </div>
+                        <div class="cards3__reviews">12 отзывов</div>
+                    </div>
+                    <div class="cards3__cost">
+                        <p class="cards3__price">2 719 р.</p>
+                        <div>
+                            <a href="#" class="cards3__scales _icon-counter"></a>
+                            <a href="#" class="cards3__heart _icon-heart"></a>
+                        </div>
+                    </div>
+                    <button type="submit" class="cards3__button">
+                        <span class="_icon-busket"></span> В&#160;корзину</button>
+                </article>
+
+            </div>
+            <!-- If we need navigation buttons -->
+            <div class="cards3-button-prev _icon-down"></div>
+            <div class="cards3-button-next _icon-down"></div>
+
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+        </div>
+    </div>
+</section>
+        <section class="news">
+    <div class="news__container">
+        <div class="news__left">
+            <h2 class="news__title">Новинки</h2>
+            <p class="news__text">Добро пожаловать на&#160;официальный сайт &#171;ЗЛАТМАКС&#187;! В&#160;нашем магазине представлен наиболее
+                широкий выбор Златоустовских ножей от&#160;Златоустовских Оружейных Фабрик и&#160;компаний, мы&#160;являемся
+                официальными поставщиками.</p>
+            <a href="#" class="news__link _icon-right">Больше новинок</a>
+        </div>
+        <div class="news__right swiper-container">
+            <div class="news__slider swiper-wrapper">
+                <article class="news__body swiper-slide">
+                    <div class="news__image"><img src="./img/hits/1.png" alt="knife" /></div>
+                    <a class="news__title2" href="#">Нож Лиса</a>
+                    <div class="news__info">
+                        <p class="news__size">95&#215;18</p>
+                        <p class="news__material">Орех, Алюминий</p>
+                    </div>
+                    <div class="news__rating">
+                        <div class="news__stars rating">
+                            <form class="news__form" method="GET" action="#" enctype="multipart/form-data">
+                                <div class="rating rating_set">
+                                    <div class="rating__body">
+                                        <div class="rating__active"></div>
+                                        <div class="rating__items">
+                                            <input type="radio" value="1" class="rating__item" name="rating" />
+                                            <input type="radio" value="2" class="rating__item" name="rating" />
+                                            <input type="radio" value="3" class="rating__item" name="rating" />
+                                            <input type="radio" value="4" class="rating__item" name="rating" />
+                                            <input type="radio" value="5" class="rating__item" name="rating" />
+                                        </div>
+                                    </div>
+                                    <div class="rating__value">3.6</div>
+                                </div>
+                                <!-- <button type="submit" class="form__btn btn">Отправить</button> -->
+                            </form>
+                        </div>
+                        <div class="news__reviews">12 отзывов</div>
+                    </div>
+                    <div class="news__cost">
+                        <p class="news__price">2 719 р.</p>
+                        <div>
+                            <a href="#" class="news__scales _icon-counter"></a>
+                            <a href="#" class="news__heart _icon-heart"></a>
+                        </div>
+                    </div>
+                    <button type="submit" class="news__button">
+                        <span class="_icon-busket"></span> В&#160;корзину</button>
+                </article>
+                <article class="news__body swiper-slide">
+                    <div class="news__image"><img src="./img/hits/1.png" alt="knife" /></div>
+                    <a class="news__title2" href="#">Нож Лиса</a>
+                    <div class="news__info">
+                        <p class="news__size">95&#215;18</p>
+                        <p class="news__material">Орех, Алюминий</p>
+                    </div>
+                    <div class="news__rating">
+                        <div class="news__stars rating">
+                            <form class="news__form" method="GET" action="#" enctype="multipart/form-data">
+                                <div class="rating rating_set">
+                                    <div class="rating__body">
+                                        <div class="rating__active"></div>
+                                        <div class="rating__items">
+                                            <input type="radio" value="1" class="rating__item" name="rating" />
+                                            <input type="radio" value="2" class="rating__item" name="rating" />
+                                            <input type="radio" value="3" class="rating__item" name="rating" />
+                                            <input type="radio" value="4" class="rating__item" name="rating" />
+                                            <input type="radio" value="5" class="rating__item" name="rating" />
+                                        </div>
+                                    </div>
+                                    <div class="rating__value">3.6</div>
+                                </div>
+                                <!-- <button type="submit" class="form__btn btn">Отправить</button> -->
+                            </form>
+                        </div>
+                        <div class="news__reviews">12 отзывов</div>
+                    </div>
+                    <div class="news__cost">
+                        <p class="news__price">2 719 р.</p>
+                        <div>
+                            <a href="#" class="news__scales _icon-counter"></a>
+                            <a href="#" class="news__heart _icon-heart"></a>
+                        </div>
+                    </div>
+                    <button type="submit" class="news__button">
+                        <span class="_icon-busket"></span> В&#160;корзину</button>
+                </article>
+                <article class="news__body swiper-slide">
+                    <div class="news__image"><img src="./img/hits/1.png" alt="knife" /></div>
+                    <a class="news__title2" href="#">Нож Лиса</a>
+                    <div class="news__info">
+                        <p class="news__size">95&#215;18</p>
+                        <p class="news__material">Орех, Алюминий</p>
+                    </div>
+                    <div class="news__rating">
+                        <div class="news__stars rating">
+                            <form class="news__form" method="GET" action="#" enctype="multipart/form-data">
+                                <div class="rating rating_set">
+                                    <div class="rating__body">
+                                        <div class="rating__active"></div>
+                                        <div class="rating__items">
+                                            <input type="radio" value="1" class="rating__item" name="rating" />
+                                            <input type="radio" value="2" class="rating__item" name="rating" />
+                                            <input type="radio" value="3" class="rating__item" name="rating" />
+                                            <input type="radio" value="4" class="rating__item" name="rating" />
+                                            <input type="radio" value="5" class="rating__item" name="rating" />
+                                        </div>
+                                    </div>
+                                    <div class="rating__value">3.6</div>
+                                </div>
+                                <!-- <button type="submit" class="form__btn btn">Отправить</button> -->
+                            </form>
+                        </div>
+                        <div class="news__reviews">12 отзывов</div>
+                    </div>
+                    <div class="news__cost">
+                        <p class="news__price">2 719 р.</p>
+                        <div>
+                            <a href="#" class="news__scales _icon-counter"></a>
+                            <a href="#" class="news__heart _icon-heart"></a>
+                        </div>
+                    </div>
+                    <button type="submit" class="news__button">
+                        <span class="_icon-busket"></span> В&#160;корзину</button>
+                </article>
+                <article class="news__body swiper-slide">
+                    <div class="news__image"><img src="./img/hits/1.png" alt="knife" /></div>
+                    <a class="news__title2" href="#">Нож Лиса</a>
+                    <div class="news__info">
+                        <p class="news__size">95&#215;18</p>
+                        <p class="news__material">Орех, Алюминий</p>
+                    </div>
+                    <div class="news__rating">
+                        <div class="news__stars rating">
+                            <form class="news__form" method="GET" action="#" enctype="multipart/form-data">
+                                <div class="rating rating_set">
+                                    <div class="rating__body">
+                                        <div class="rating__active"></div>
+                                        <div class="rating__items">
+                                            <input type="radio" value="1" class="rating__item" name="rating" />
+                                            <input type="radio" value="2" class="rating__item" name="rating" />
+                                            <input type="radio" value="3" class="rating__item" name="rating" />
+                                            <input type="radio" value="4" class="rating__item" name="rating" />
+                                            <input type="radio" value="5" class="rating__item" name="rating" />
+                                        </div>
+                                    </div>
+                                    <div class="rating__value">3.6</div>
+                                </div>
+                                <!-- <button type="submit" class="form__btn btn">Отправить</button> -->
+                            </form>
+                        </div>
+                        <div class="news__reviews">12 отзывов</div>
+                    </div>
+                    <div class="news__cost">
+                        <p class="news__price">2 719 р.</p>
+                        <div>
+                            <a href="#" class="news__scales _icon-counter"></a>
+                            <a href="#" class="news__heart _icon-heart"></a>
+                        </div>
+                    </div>
+                    <button type="submit" class="news__button">
+                        <span class="_icon-busket"></span> В&#160;корзину</button>
+                </article>
+                <article class="news__body swiper-slide">
+                    <div class="news__image"><img src="./img/hits/1.png" alt="knife" /></div>
+                    <a class="news__title2" href="#">Нож Лиса</a>
+                    <div class="news__info">
+                        <p class="news__size">95&#215;18</p>
+                        <p class="news__material">Орех, Алюминий</p>
+                    </div>
+                    <div class="news__rating">
+                        <div class="news__stars rating">
+                            <form class="news__form" method="GET" action="#" enctype="multipart/form-data">
+                                <div class="rating rating_set">
+                                    <div class="rating__body">
+                                        <div class="rating__active"></div>
+                                        <div class="rating__items">
+                                            <input type="radio" value="1" class="rating__item" name="rating" />
+                                            <input type="radio" value="2" class="rating__item" name="rating" />
+                                            <input type="radio" value="3" class="rating__item" name="rating" />
+                                            <input type="radio" value="4" class="rating__item" name="rating" />
+                                            <input type="radio" value="5" class="rating__item" name="rating" />
+                                        </div>
+                                    </div>
+                                    <div class="rating__value">3.6</div>
+                                </div>
+                                <!-- <button type="submit" class="form__btn btn">Отправить</button> -->
+                            </form>
+                        </div>
+                        <div class="news__reviews">12 отзывов</div>
+                    </div>
+                    <div class="news__cost">
+                        <p class="news__price">2 719 р.</p>
+                        <div>
+                            <a href="#" class="news__scales _icon-counter"></a>
+                            <a href="#" class="news__heart _icon-heart"></a>
+                        </div>
+                    </div>
+                    <button type="submit" class="news__button">
+                        <span class="_icon-busket"></span> В&#160;корзину</button>
+                </article>
+            </div>
+
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</section>
+        <section class="sales">
+    <div class="sales__container">
+        <div class="sales__top">
+            <h2 class="sales__title">Акции</h2>
+            <a class="sales__link _icon-right" href="#">Перейти в&#160;каталог</a>
+        </div>
+        <div class="sales__cards cards3 swiper-container">
+            <div class="cards3__slider swiper-wrapper">
+                <article class="cards3__body swiper-slide">
+                    <div class="cards3__image"><img src="./img/sales/1.png" alt="knife" /></div>
+                    <a class="cards3__title" href="#">Нож Лиса</a>
+                    <div class="cards3__info">
+                        <p class="cards3__size">95&#215;18</p>
+                        <p class="cards3__material">Орех, Алюминий</p>
+                    </div>
+                    <div class="cards3__rating">
+                        <div class="cards3__stars rating">
+                            <form class="rating__form" method="GET" action="#" enctype="multipart/form-data">
+                                <div class="rating rating_set">
+                                    <div class="rating__body">
+                                        <div class="rating__active"></div>
+                                        <div class="rating__items">
+                                            <input type="radio" value="1" class="rating__item" name="rating" />
+                                            <input type="radio" value="2" class="rating__item" name="rating" />
+                                            <input type="radio" value="3" class="rating__item" name="rating" />
+                                            <input type="radio" value="4" class="rating__item" name="rating" />
+                                            <input type="radio" value="5" class="rating__item" name="rating" />
+                                        </div>
+                                    </div>
+                                    <div class="rating__value">3.6</div>
+                                </div>
+                                <!-- <button type="submit" class="form__btn btn">Отправить</button> -->
+                            </form>
+                        </div>
+                        <div class="cards3__reviews">12 отзывов</div>
+                    </div>
+                    <div class="cards3__cost">
+                        <p class="cards3__price">2 719 р.</p>
+                        <div>
+                            <a href="#" class="cards3__scales _icon-counter"></a>
+                            <a href="#" class="cards3__heart _icon-heart"></a>
+                        </div>
+                    </div>
+                    <button type="submit" class="cards3__button">
+                        <span class="_icon-busket"></span> В&#160;корзину</button>
+                </article>
+
+                <article class="cards3__body swiper-slide">
+                    <div class="cards3__image"><img src="./img/sales/1.png" alt="knife" /></div>
+                    <a class="cards3__title" href="#">Нож Лиса</a>
+                    <div class="cards3__info">
+                        <p class="cards3__size">95&#215;18</p>
+                        <p class="cards3__material">Орех, Алюминий</p>
+                    </div>
+                    <div class="cards3__rating">
+                        <div class="cards3__stars rating">
+                            <form class="rating__form" method="GET" action="#" enctype="multipart/form-data">
+                                <div class="rating rating_set">
+                                    <div class="rating__body">
+                                        <div class="rating__active"></div>
+                                        <div class="rating__items">
+                                            <input type="radio" value="1" class="rating__item" name="rating" />
+                                            <input type="radio" value="2" class="rating__item" name="rating" />
+                                            <input type="radio" value="3" class="rating__item" name="rating" />
+                                            <input type="radio" value="4" class="rating__item" name="rating" />
+                                            <input type="radio" value="5" class="rating__item" name="rating" />
+                                        </div>
+                                    </div>
+                                    <div class="rating__value">3.6</div>
+                                </div>
+                                <!-- <button type="submit" class="form__btn btn">Отправить</button> -->
+                            </form>
+                        </div>
+                        <div class="cards3__reviews">12 отзывов</div>
+                    </div>
+                    <div class="cards3__cost">
+                        <p class="cards3__price">2 719 р.</p>
+                        <div>
+                            <a href="#" class="cards3__scales _icon-counter"></a>
+                            <a href="#" class="cards3__heart _icon-heart"></a>
+                        </div>
+                    </div>
+                    <button type="submit" class="cards3__button">
+                        <span class="_icon-busket"></span> В&#160;корзину</button>
+                </article>
+
+                <article class="cards3__body swiper-slide">
+                    <div class="cards3__image"><img src="./img/sales/1.png" alt="knife" /></div>
+                    <a class="cards3__title" href="#">Нож Лиса</a>
+                    <div class="cards3__info">
+                        <p class="cards3__size">95&#215;18</p>
+                        <p class="cards3__material">Орех, Алюминий</p>
+                    </div>
+                    <div class="cards3__rating">
+                        <div class="cards3__stars rating">
+                            <form class="rating__form" method="GET" action="#" enctype="multipart/form-data">
+                                <div class="rating rating_set">
+                                    <div class="rating__body">
+                                        <div class="rating__active"></div>
+                                        <div class="rating__items">
+                                            <input type="radio" value="1" class="rating__item" name="rating" />
+                                            <input type="radio" value="2" class="rating__item" name="rating" />
+                                            <input type="radio" value="3" class="rating__item" name="rating" />
+                                            <input type="radio" value="4" class="rating__item" name="rating" />
+                                            <input type="radio" value="5" class="rating__item" name="rating" />
+                                        </div>
+                                    </div>
+                                    <div class="rating__value">3.6</div>
+                                </div>
+                                <!-- <button type="submit" class="form__btn btn">Отправить</button> -->
+                            </form>
+                        </div>
+                        <div class="cards3__reviews">12 отзывов</div>
+                    </div>
+                    <div class="cards3__cost">
+                        <p class="cards3__price">2 719 р.</p>
+                        <div>
+                            <a href="#" class="cards3__scales _icon-counter"></a>
+                            <a href="#" class="cards3__heart _icon-heart"></a>
+                        </div>
+                    </div>
+                    <button type="submit" class="cards3__button">
+                        <span class="_icon-busket"></span> В&#160;корзину</button>
+                </article>
+
+                <article class="cards3__body swiper-slide">
+                    <div class="cards3__image"><img src="./img/sales/1.png" alt="knife" /></div>
+                    <a class="cards3__title" href="#">Нож Лиса</a>
+                    <div class="cards3__info">
+                        <p class="cards3__size">95&#215;18</p>
+                        <p class="cards3__material">Орех, Алюминий</p>
+                    </div>
+                    <div class="cards3__rating">
+                        <div class="cards3__stars rating">
+                            <form class="rating__form" method="GET" action="#" enctype="multipart/form-data">
+                                <div class="rating rating_set">
+                                    <div class="rating__body">
+                                        <div class="rating__active"></div>
+                                        <div class="rating__items">
+                                            <input type="radio" value="1" class="rating__item" name="rating" />
+                                            <input type="radio" value="2" class="rating__item" name="rating" />
+                                            <input type="radio" value="3" class="rating__item" name="rating" />
+                                            <input type="radio" value="4" class="rating__item" name="rating" />
+                                            <input type="radio" value="5" class="rating__item" name="rating" />
+                                        </div>
+                                    </div>
+                                    <div class="rating__value">3.6</div>
+                                </div>
+                                <!-- <button type="submit" class="form__btn btn">Отправить</button> -->
+                            </form>
+                        </div>
+                        <div class="cards3__reviews">12 отзывов</div>
+                    </div>
+                    <div class="cards3__cost">
+                        <p class="cards3__price">2 719 р.</p>
+                        <div>
+                            <a href="#" class="cards3__scales _icon-counter"></a>
+                            <a href="#" class="cards3__heart _icon-heart"></a>
+                        </div>
+                    </div>
+                    <button type="submit" class="cards3__button">
+                        <span class="_icon-busket"></span> В&#160;корзину</button>
+                </article>
+
+                <article class="cards3__body swiper-slide">
+                    <div class="cards3__image"><img src="./img/sales/1.png" alt="knife" /></div>
+                    <a class="cards3__title" href="#">Нож Лиса</a>
+                    <div class="cards3__info">
+                        <p class="cards3__size">95&#215;18</p>
+                        <p class="cards3__material">Орех, Алюминий</p>
+                    </div>
+                    <div class="cards3__rating">
+                        <div class="cards3__stars rating">
+                            <form class="rating__form" method="GET" action="#" enctype="multipart/form-data">
+                                <div class="rating rating_set">
+                                    <div class="rating__body">
+                                        <div class="rating__active"></div>
+                                        <div class="rating__items">
+                                            <input type="radio" value="1" class="rating__item" name="rating" />
+                                            <input type="radio" value="2" class="rating__item" name="rating" />
+                                            <input type="radio" value="3" class="rating__item" name="rating" />
+                                            <input type="radio" value="4" class="rating__item" name="rating" />
+                                            <input type="radio" value="5" class="rating__item" name="rating" />
+                                        </div>
+                                    </div>
+                                    <div class="rating__value">3.6</div>
+                                </div>
+                                <!-- <button type="submit" class="form__btn btn">Отправить</button> -->
+                            </form>
+                        </div>
+                        <div class="cards3__reviews">12 отзывов</div>
+                    </div>
+                    <div class="cards3__cost">
+                        <p class="cards3__price">2 719 р.</p>
+                        <div>
+                            <a href="#" class="cards3__scales _icon-counter"></a>
+                            <a href="#" class="cards3__heart _icon-heart"></a>
+                        </div>
+                    </div>
+                    <button type="submit" class="cards3__button">
+                        <span class="_icon-busket"></span> В&#160;корзину</button>
+                </article>
+
+                <article class="cards3__body swiper-slide">
+                    <div class="cards3__image"><img src="./img/sales/1.png" alt="knife" /></div>
+                    <a class="cards3__title" href="#">Нож Лиса</a>
+                    <div class="cards3__info">
+                        <p class="cards3__size">95&#215;18</p>
+                        <p class="cards3__material">Орех, Алюминий</p>
+                    </div>
+                    <div class="cards3__rating">
+                        <div class="cards3__stars rating">
+                            <form class="rating__form" method="GET" action="#" enctype="multipart/form-data">
+                                <div class="rating rating_set">
+                                    <div class="rating__body">
+                                        <div class="rating__active"></div>
+                                        <div class="rating__items">
+                                            <input type="radio" value="1" class="rating__item" name="rating" />
+                                            <input type="radio" value="2" class="rating__item" name="rating" />
+                                            <input type="radio" value="3" class="rating__item" name="rating" />
+                                            <input type="radio" value="4" class="rating__item" name="rating" />
+                                            <input type="radio" value="5" class="rating__item" name="rating" />
+                                        </div>
+                                    </div>
+                                    <div class="rating__value">3.6</div>
+                                </div>
+                                <!-- <button type="submit" class="form__btn btn">Отправить</button> -->
+                            </form>
+                        </div>
+                        <div class="cards3__reviews">12 отзывов</div>
+                    </div>
+                    <div class="cards3__cost">
+                        <p class="cards3__price">2 719 р.</p>
+                        <div>
+                            <a href="#" class="cards3__scales _icon-counter"></a>
+                            <a href="#" class="cards3__heart _icon-heart"></a>
+                        </div>
+                    </div>
+                    <button type="submit" class="cards3__button">
+                        <span class="_icon-busket"></span> В&#160;корзину</button>
+                </article>
+
+                <article class="cards3__body swiper-slide">
+                    <div class="cards3__image"><img src="./img/sales/1.png" alt="knife" /></div>
+                    <a class="cards3__title" href="#">Нож Лиса</a>
+                    <div class="cards3__info">
+                        <p class="cards3__size">95&#215;18</p>
+                        <p class="cards3__material">Орех, Алюминий</p>
+                    </div>
+                    <div class="cards3__rating">
+                        <div class="cards3__stars rating">
+                            <form class="rating__form" method="GET" action="#" enctype="multipart/form-data">
+                                <div class="rating rating_set">
+                                    <div class="rating__body">
+                                        <div class="rating__active"></div>
+                                        <div class="rating__items">
+                                            <input type="radio" value="1" class="rating__item" name="rating" />
+                                            <input type="radio" value="2" class="rating__item" name="rating" />
+                                            <input type="radio" value="3" class="rating__item" name="rating" />
+                                            <input type="radio" value="4" class="rating__item" name="rating" />
+                                            <input type="radio" value="5" class="rating__item" name="rating" />
+                                        </div>
+                                    </div>
+                                    <div class="rating__value">3.6</div>
+                                </div>
+                                <!-- <button type="submit" class="form__btn btn">Отправить</button> -->
+                            </form>
+                        </div>
+                        <div class="cards3__reviews">12 отзывов</div>
+                    </div>
+                    <div class="cards3__cost">
+                        <p class="cards3__price">2 719 р.</p>
+                        <div>
+                            <a href="#" class="cards3__scales _icon-counter"></a>
+                            <a href="#" class="cards3__heart _icon-heart"></a>
+                        </div>
+                    </div>
+                    <button type="submit" class="cards3__button">
+                        <span class="_icon-busket"></span> В&#160;корзину</button>
+                </article>
+
+            </div>
+            <!-- If we need navigation buttons -->
+            <!-- <div class="cards3-button-prev _icon-down"></div>
+            <div class="cards3-button-next _icon-down"></div> -->
+
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+        </div>
+    </div>
+</section>
+        <section class="lanterns">
+    <div class="lanterns__container">
+        <div class="lanterns__top">
+            <h2 class="lanterns__title">Фонари</h2>
+            <a class="lanterns__link _icon-right" href="#">Перейти в&#160;каталог</a>
+        </div>
+        <div class="lanterns__cards cards3 swiper-container">
+            <div class="cards3__slider swiper-wrapper">
+                <article class="cards3__body swiper-slide">
+                    <div class="cards3__image"><img src="./img/lanterns/1.png" alt="lanterns" /></div>
+                    <a class="cards3__title" href="#">Нож Лиса</a>
+                    <div class="cards3__info">
+                        <p class="cards3__size">95&#215;18</p>
+                        <p class="cards3__material">Орех, Алюминий</p>
+                    </div>
+                    <div class="cards3__rating">
+                        <div class="cards3__stars rating">
+                            <form class="rating__form" method="GET" action="#" enctype="multipart/form-data">
+                                <div class="rating rating_set">
+                                    <div class="rating__body">
+                                        <div class="rating__active"></div>
+                                        <div class="rating__items">
+                                            <input type="radio" value="1" class="rating__item" name="rating" />
+                                            <input type="radio" value="2" class="rating__item" name="rating" />
+                                            <input type="radio" value="3" class="rating__item" name="rating" />
+                                            <input type="radio" value="4" class="rating__item" name="rating" />
+                                            <input type="radio" value="5" class="rating__item" name="rating" />
+                                        </div>
+                                    </div>
+                                    <div class="rating__value">3.6</div>
+                                </div>
+                                <!-- <button type="submit" class="form__btn btn">Отправить</button> -->
+                            </form>
+                        </div>
+                        <div class="cards3__reviews">12 отзывов</div>
+                    </div>
+                    <div class="cards3__cost">
+                        <p class="cards3__price">2 719 р.</p>
+                        <div>
+                            <a href="#" class="cards3__scales _icon-counter"></a>
+                            <a href="#" class="cards3__heart _icon-heart"></a>
+                        </div>
+                    </div>
+                    <button type="submit" class="cards3__button">
+                        <span class="_icon-busket"></span> В&#160;корзину</button>
+                </article>
+
+                <article class="cards3__body swiper-slide">
+                    <div class="cards3__image"><img src="./img/lanterns/1.png" alt="lanterns" /></div>
+                    <a class="cards3__title" href="#">Нож Лиса</a>
+                    <div class="cards3__info">
+                        <p class="cards3__size">95&#215;18</p>
+                        <p class="cards3__material">Орех, Алюминий</p>
+                    </div>
+                    <div class="cards3__rating">
+                        <div class="cards3__stars rating">
+                            <form class="rating__form" method="GET" action="#" enctype="multipart/form-data">
+                                <div class="rating rating_set">
+                                    <div class="rating__body">
+                                        <div class="rating__active"></div>
+                                        <div class="rating__items">
+                                            <input type="radio" value="1" class="rating__item" name="rating" />
+                                            <input type="radio" value="2" class="rating__item" name="rating" />
+                                            <input type="radio" value="3" class="rating__item" name="rating" />
+                                            <input type="radio" value="4" class="rating__item" name="rating" />
+                                            <input type="radio" value="5" class="rating__item" name="rating" />
+                                        </div>
+                                    </div>
+                                    <div class="rating__value">3.6</div>
+                                </div>
+                                <!-- <button type="submit" class="form__btn btn">Отправить</button> -->
+                            </form>
+                        </div>
+                        <div class="cards3__reviews">12 отзывов</div>
+                    </div>
+                    <div class="cards3__cost">
+                        <p class="cards3__price">2 719 р.</p>
+                        <div>
+                            <a href="#" class="cards3__scales _icon-counter"></a>
+                            <a href="#" class="cards3__heart _icon-heart"></a>
+                        </div>
+                    </div>
+                    <button type="submit" class="cards3__button">
+                        <span class="_icon-busket"></span> В&#160;корзину</button>
+                </article>
+
+                <article class="cards3__body swiper-slide">
+                    <div class="cards3__image"><img src="./img/lanterns/1.png" alt="lanterns" /></div>
+                    <a class="cards3__title" href="#">Нож Лиса</a>
+                    <div class="cards3__info">
+                        <p class="cards3__size">95&#215;18</p>
+                        <p class="cards3__material">Орех, Алюминий</p>
+                    </div>
+                    <div class="cards3__rating">
+                        <div class="cards3__stars rating">
+                            <form class="rating__form" method="GET" action="#" enctype="multipart/form-data">
+                                <div class="rating rating_set">
+                                    <div class="rating__body">
+                                        <div class="rating__active"></div>
+                                        <div class="rating__items">
+                                            <input type="radio" value="1" class="rating__item" name="rating" />
+                                            <input type="radio" value="2" class="rating__item" name="rating" />
+                                            <input type="radio" value="3" class="rating__item" name="rating" />
+                                            <input type="radio" value="4" class="rating__item" name="rating" />
+                                            <input type="radio" value="5" class="rating__item" name="rating" />
+                                        </div>
+                                    </div>
+                                    <div class="rating__value">3.6</div>
+                                </div>
+                                <!-- <button type="submit" class="form__btn btn">Отправить</button> -->
+                            </form>
+                        </div>
+                        <div class="cards3__reviews">12 отзывов</div>
+                    </div>
+                    <div class="cards3__cost">
+                        <p class="cards3__price">2 719 р.</p>
+                        <div>
+                            <a href="#" class="cards3__scales _icon-counter"></a>
+                            <a href="#" class="cards3__heart _icon-heart"></a>
+                        </div>
+                    </div>
+                    <button type="submit" class="cards3__button">
+                        <span class="_icon-busket"></span> В&#160;корзину</button>
+                </article>
+
+                <article class="cards3__body swiper-slide">
+                    <div class="cards3__image"><img src="./img/lanterns/1.png" alt="lanterns" /></div>
+                    <a class="cards3__title" href="#">Нож Лиса</a>
+                    <div class="cards3__info">
+                        <p class="cards3__size">95&#215;18</p>
+                        <p class="cards3__material">Орех, Алюминий</p>
+                    </div>
+                    <div class="cards3__rating">
+                        <div class="cards3__stars rating">
+                            <form class="rating__form" method="GET" action="#" enctype="multipart/form-data">
+                                <div class="rating rating_set">
+                                    <div class="rating__body">
+                                        <div class="rating__active"></div>
+                                        <div class="rating__items">
+                                            <input type="radio" value="1" class="rating__item" name="rating" />
+                                            <input type="radio" value="2" class="rating__item" name="rating" />
+                                            <input type="radio" value="3" class="rating__item" name="rating" />
+                                            <input type="radio" value="4" class="rating__item" name="rating" />
+                                            <input type="radio" value="5" class="rating__item" name="rating" />
+                                        </div>
+                                    </div>
+                                    <div class="rating__value">3.6</div>
+                                </div>
+                                <!-- <button type="submit" class="form__btn btn">Отправить</button> -->
+                            </form>
+                        </div>
+                        <div class="cards3__reviews">12 отзывов</div>
+                    </div>
+                    <div class="cards3__cost">
+                        <p class="cards3__price">2 719 р.</p>
+                        <div>
+                            <a href="#" class="cards3__scales _icon-counter"></a>
+                            <a href="#" class="cards3__heart _icon-heart"></a>
+                        </div>
+                    </div>
+                    <button type="submit" class="cards3__button">
+                        <span class="_icon-busket"></span> В&#160;корзину</button>
+                </article>
+
+                <article class="cards3__body swiper-slide">
+                    <div class="cards3__image"><img src="./img/lanterns/1.png" alt="lanterns" /></div>
+                    <a class="cards3__title" href="#">Нож Лиса</a>
+                    <div class="cards3__info">
+                        <p class="cards3__size">95&#215;18</p>
+                        <p class="cards3__material">Орех, Алюминий</p>
+                    </div>
+                    <div class="cards3__rating">
+                        <div class="cards3__stars rating">
+                            <form class="rating__form" method="GET" action="#" enctype="multipart/form-data">
+                                <div class="rating rating_set">
+                                    <div class="rating__body">
+                                        <div class="rating__active"></div>
+                                        <div class="rating__items">
+                                            <input type="radio" value="1" class="rating__item" name="rating" />
+                                            <input type="radio" value="2" class="rating__item" name="rating" />
+                                            <input type="radio" value="3" class="rating__item" name="rating" />
+                                            <input type="radio" value="4" class="rating__item" name="rating" />
+                                            <input type="radio" value="5" class="rating__item" name="rating" />
+                                        </div>
+                                    </div>
+                                    <div class="rating__value">3.6</div>
+                                </div>
+                                <!-- <button type="submit" class="form__btn btn">Отправить</button> -->
+                            </form>
+                        </div>
+                        <div class="cards3__reviews">12 отзывов</div>
+                    </div>
+                    <div class="cards3__cost">
+                        <p class="cards3__price">2 719 р.</p>
+                        <div>
+                            <a href="#" class="cards3__scales _icon-counter"></a>
+                            <a href="#" class="cards3__heart _icon-heart"></a>
+                        </div>
+                    </div>
+                    <button type="submit" class="cards3__button">
+                        <span class="_icon-busket"></span> В&#160;корзину</button>
+                </article>
+
+                <article class="cards3__body swiper-slide">
+                    <div class="cards3__image"><img src="./img/lanterns/1.png" alt="lanterns" /></div>
+                    <a class="cards3__title" href="#">Нож Лиса</a>
+                    <div class="cards3__info">
+                        <p class="cards3__size">95&#215;18</p>
+                        <p class="cards3__material">Орех, Алюминий</p>
+                    </div>
+                    <div class="cards3__rating">
+                        <div class="cards3__stars rating">
+                            <form class="rating__form" method="GET" action="#" enctype="multipart/form-data">
+                                <div class="rating rating_set">
+                                    <div class="rating__body">
+                                        <div class="rating__active"></div>
+                                        <div class="rating__items">
+                                            <input type="radio" value="1" class="rating__item" name="rating" />
+                                            <input type="radio" value="2" class="rating__item" name="rating" />
+                                            <input type="radio" value="3" class="rating__item" name="rating" />
+                                            <input type="radio" value="4" class="rating__item" name="rating" />
+                                            <input type="radio" value="5" class="rating__item" name="rating" />
+                                        </div>
+                                    </div>
+                                    <div class="rating__value">3.6</div>
+                                </div>
+                                <!-- <button type="submit" class="form__btn btn">Отправить</button> -->
+                            </form>
+                        </div>
+                        <div class="cards3__reviews">12 отзывов</div>
+                    </div>
+                    <div class="cards3__cost">
+                        <p class="cards3__price">2 719 р.</p>
+                        <div>
+                            <a href="#" class="cards3__scales _icon-counter"></a>
+                            <a href="#" class="cards3__heart _icon-heart"></a>
+                        </div>
+                    </div>
+                    <button type="submit" class="cards3__button">
+                        <span class="_icon-busket"></span> В&#160;корзину</button>
+                </article>
+
+                <article class="cards3__body swiper-slide">
+                    <div class="cards3__image"><img src="./img/lanterns/1.png" alt="lanterns" /></div>
+                    <a class="cards3__title" href="#">Нож Лиса</a>
+                    <div class="cards3__info">
+                        <p class="cards3__size">95&#215;18</p>
+                        <p class="cards3__material">Орех, Алюминий</p>
+                    </div>
+                    <div class="cards3__rating">
+                        <div class="cards3__stars rating">
+                            <form class="rating__form" method="GET" action="#" enctype="multipart/form-data">
+                                <div class="rating rating_set">
+                                    <div class="rating__body">
+                                        <div class="rating__active"></div>
+                                        <div class="rating__items">
+                                            <input type="radio" value="1" class="rating__item" name="rating" />
+                                            <input type="radio" value="2" class="rating__item" name="rating" />
+                                            <input type="radio" value="3" class="rating__item" name="rating" />
+                                            <input type="radio" value="4" class="rating__item" name="rating" />
+                                            <input type="radio" value="5" class="rating__item" name="rating" />
+                                        </div>
+                                    </div>
+                                    <div class="rating__value">3.6</div>
+                                </div>
+                                <!-- <button type="submit" class="form__btn btn">Отправить</button> -->
+                            </form>
+                        </div>
+                        <div class="cards3__reviews">12 отзывов</div>
+                    </div>
+                    <div class="cards3__cost">
+                        <p class="cards3__price">2 719 р.</p>
+                        <div>
+                            <a href="#" class="cards3__scales _icon-counter"></a>
+                            <a href="#" class="cards3__heart _icon-heart"></a>
+                        </div>
+                    </div>
+                    <button type="submit" class="cards3__button">
+                        <span class="_icon-busket"></span> В&#160;корзину</button>
+                </article>
+
+            </div>
+            <!-- If we need navigation buttons -->
+            <!-- <div class="cards3-button-prev _icon-down"></div>
+            <div class="cards3-button-next _icon-down"></div> -->
+
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+        </div>
+    </div>
+</section>
+        <section class="articles">
+    <div class="articles__container">
+        <h2 class="articles__title">Наши статьи</h2>
+        <div class="articles__items">
+            <article class="articles__item">
+                <a href="#" class="articles__link"><img src="./img/articles/1.png" alt="картинка" /></a>
+                <div class="articles__body">
+                    <h3 class="articles__subtitle"><a href="#" class="articles__sublink">Все о&#160;ножах: как правильно
+                            выбрать</a></h3>
+                    <p class="articles__data">24.07.2019</p>
+                </div>
+            </article>
+            <article class="articles__item">
+                <a href="#" class="articles__link"><img src="./img/articles/2.png" alt="картинка" /></a>
+                <div class="articles__body">
+                    <h3 class="articles__subtitle"><a href="#" class="articles__sublink">Как правильно выбрать
+                            фонарь</a></h3>
+                    <p class="articles__data">24.07.2019</p>
+                </div>
+            </article>
+            <article class="articles__item">
+                <a href="#" class="articles__link"><img src="./img/articles/3.png" alt="картинка" /></a>
+                <div class="articles__body">
+                    <h3 class="articles__subtitle"><a href="#" class="articles__sublink">Кухонные ножи для хозяек</a>
+                    </h3>
+                    <p class="articles__data">24.07.2019</p>
+                </div>
+            </article>
+            <article class="articles__item">
+                <a href="#" class="articles__link"><img src="./img/articles/4.png" alt="картинка" /></a>
+                <div class="articles__body">
+                    <h3 class="articles__subtitle"><a href="#" class="articles__sublink">Кухонные ножи для хозяек </a>
+                    </h3>
+                    <p class="articles__data">24.07.2019</p>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+        <section class="articles2">
+    <div class="articles2__container">
+        <div class="articles2__items">
+            <article class="articles2__item">
+                <div class="articles2__left">
+                    <h3 class="articles2__title"><a href="#" class="articles2__link">Тактические фонари</a></h3>
+                    <p class="articles2__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#" class="articles2__button button">Подробнее</a>
+                </div>
+                <div class="articles2__right"><img src="./img/articles2/1.png" alt="картинка" /></div>
+            </article>
+            <article class="articles2__item">
+                <div class="articles2__left">
+                    <h3 class="articles2__title"><a href="#" class="articles2__link">Налобные мультифонари</a></h3>
+                    <p class="articles2__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#" class="articles2__button button">Подробнее</a>
+                </div>
+                <div class="articles2__right"><img src="./img/articles2/2.png" alt="картинка" /></div>
+            </article>
+        </div>
+</section>
+
+    </main>
+    <footer class="footer">
+    <section class="footer__top">
+        <div class="footer__container">
+            <h1 class="footer__title">Златоустовские ножи интернет-магазин &#171;ЗЛАТМАКС&#187;</h1>
+            <p class="footer__text">Наш интернет-магазин &#171;ЗЛАТМАКС&#187; предлагает Вам ножи очень высокого качества из
+                города оружейников&#160;&#8212; Златоуста. Златоустовские ножи известны и&#160;популярны среди потребителей как на
+                российским рынке, так и&#160;за&#160;рубежом: ножи охотничьи, хозяйственные, туристические, рыбацкие, складные и
+                метательные. Нож Златоуста&#160;&#8212; это идеальный друг и&#160;товарищ в&#160;повседневной жизни и&#160;в&#160;экстремальных
+                ситуациях. На&#160;многую продукцию распространяется гарантия до&#160;10 лет&#160;&#8212; это один из&#160;главных показателей
+                качества. Для Вас на&#160;нашем сайте &#171;zlatmax&#187; предложен огромный ассортимент Златоустовских ножей. Наши
+                менеджеры помогут определиться и&#160;подобрать самый лучший Златоустовский нож, ориентируясь на&#160;Ваши
+                пожелания.</p>
+        </div>
+    </section>
+    <div class="footer__body">
+        <div class="footer__container">
+            <div class="footer__header header-footer">
+                <div class="header-footer__body">
+                    <div class="header-footer__wrapper">
+                        <div class="header-footer__item">
+                            <a href="#" class="header-footer__link header-footer__arrow--1 _icon-right">ИНФОРМАЦИЯ</a>
+                            <nav class="header-footer__menu menu-footer">
+                                <ul class="menu-footer__list menu-footer__list--1">
+                                    <li class="menu-footer__item menu-footer__item--1"><a href="#"
+                                            class="menu-footer__link">Златоустовские
+                                            ножи<br>в&#160;Москве и&#160;Московской области</a></li>
+                                    <li class="menu-footer__item"><a href="#" class="menu-footer__link">Ножевые
+                                            стали</a>
+                                    </li>
+                                    <li class="menu-footer__item"><a href="#" class="menu-footer__link">О&#160;нас</a></li>
+                                    <li class="menu-footer__item"><a href="#" class="menu-footer__link">Условия оплаты и
+                                            доставки</a></li>
+                                    <li class="menu-footer__item"><a href="#" class="menu-footer__link">Политика
+                                            конфиденциальности</a></li>
+                                </ul>
+                            </nav>
+
+                        </div>
+                        <div class="header-footer__item">
+                            <a href="#" class="header-footer__link header-footer__arrow--2 _icon-right">СЛУЖБА
+                                ПОДДЕРЖКИ</a>
+                            <nav class="header-footer__menu menu-footer">
+                                <ul class="menu-footer__list menu-footer__list--2">
+                                    <li class="menu-footer__item"><a href="#" class="menu-footer__link">Контактная
+                                            информация</a></li>
+                                    <li class="menu-footer__item"><a href="#" class="menu-footer__link">Возврат
+                                            товара</a>
+                                    </li>
+                                    <li class="menu-footer__item"><a href="#" class="menu-footer__link">Карта сайта</a>
+                                    </li>
+                                </ul>
+                            </nav>
+
+                        </div>
+                        <div class="header-footer__item">
+                            <a href="#"
+                                class="header-footer__link header-footer__arrow--3 _icon-right">ДОПОЛНИТЕЛЬНО</a>
+                            <nav class="header-footer__menu menu-footer">
+                                <ul class="menu-footer__list menu-footer__list--3">
+                                    <li class="menu-footer__item"><a href="#" class="menu-footer__link">Подарочные
+                                            сертификаты</a></li>
+                                    <li class="menu-footer__item"><a href="#" class="menu-footer__link">Ножевые
+                                            стали</a>
+                                    </li>
+                                    <li class="menu-footer__item"><a href="#" class="menu-footer__link">О&#160;нас</a></li>
+                                    <li class="menu-footer__item"><a href="#" class="menu-footer__link">Партнеры</a>
+                                    </li>
+                                    <li class="menu-footer__item"><a href="#" class="menu-footer__link">Товары со
+                                            скидкой</a></li>
+                                </ul>
+                            </nav>
+
+                        </div>
+                        <div class="header-footer__item">
+                            <a href="#" class="header-footer__link header-footer__arrow--4 _icon-right">ЛИЧНЫЙ
+                                КАБИНЕТ</a>
+                            <nav class="header-footer__menu menu-footer">
+                                <ul class="menu-footer__list menu-footer__list--4">
+                                    <li class="menu-footer__item"><a href="#" class="menu-footer__link">Личный
+                                            кабинет</a>
+                                    </li>
+                                    <li class="menu-footer__item"><a href="#" class="menu-footer__link">История
+                                            заказов</a>
+                                    </li>
+                                    <li class="menu-footer__item"><a href="#" class="menu-footer__link">Мои закладки</a>
+                                    </li>
+                                    <li class="menu-footer__item"><a href="#" class="menu-footer__link">Рассылка
+                                            новостей</a></li>
+                                </ul>
+                            </nav>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__center center-footer">
+                <div class="center-footer__container">
+                    <div class="center-footer__body">
+                        <div class="center-footer__wrapper">
+                            <div class="center-footer__item">
+                                <a class="center-footer__link" href="#">КОНТАКТЫ</a>
+                                <nav class="center-footer__menu center-menu">
+                                    <ul class="center-menu__list">
+                                        <li class="center-menu__item  center-menu__item--first _icon-phone"><a
+                                                class="center-menu__link" href="tel:+88007774967">8
+                                                (800) 777-49-67</a></li>
+                                        <li class="center-menu__item center-menu__item--first _icon-clock">Пн-Пт 7:00&#160;&#8212;
+                                            16:00 (МСК)</li>
+                                        <li class="center-menu__item center-menu__item--first _icon-location">Златоуст,
+                                            ул.&#160;Шоссейная, д.&#160;1, офис
+                                            &#171;6Б&#187;</li>
+                                        <li class="center-menu__item center-menu__item--first _icon-email"><a
+                                                class="center-menu__link"
+                                                href="mailto:info@zlatmax.ru">info@zlatmax.ru</a></li>
+                                    </ul>
+                                    <div class="center-menu__soc">
+                                        <a href="#"><img src="./img/footer/1.svg" alt="картинка"></a>
+                                        <a href="#"><img src="./img/footer/2.svg" alt="картинка"></a>
+                                        <a href="#"><img src="./img/footer/3.svg" alt="картинка"></a>
+                                        <a href="#"><img src="./img/footer/4.svg" alt="картинка"></a>
+                                    </div>
+                                </nav>
+                            </div>
+                            <div class="center-footer__item">
+                                <a class="center-footer__link" href="#">ПОЛЕЗНЫЕ ССЫЛКИ</a>
+                                <nav class="center-footer__menu center-menu">
+                                    <ul class="center-menu__list">
+                                        <li class="center-menu__item"><a class="center-menu__link" href="#">Способы
+                                                оплаты и
+                                                доставки</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="center-footer__item">
+                                <a class="center-footer__link" href="#">НАША ГАРАНТИЯ</a>
+                                <nav class="center-footer__menu center-menu">
+                                    <ul class="center-menu__list">
+                                        <li class="center-menu__item"><a class="center-menu__link" href="#">Недовольны
+                                                своей
+                                                покупкой?
+                                                Вы&#160;можете вернуть ее&#160;в&#160;течении
+                                                30 дней с&#160;даты получения,
+                                                согласно <span>нашим правилам</span></a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="center-footer__item">
+                                <a class="center-footer__link" href="#">НОВОСТНАЯ РАССЫЛКА</a>
+                                <nav class="center-footer__menu center-menu">
+                                    <ul class="center-menu__list">
+                                        <li class="center-menu__item">
+                                            <form class="center-menu__form" method="POST" action="#"
+                                                enctype="multipart/form-data">
+
+                                                <legend>Подпишитесь прямо сейчас!</legend>
+
+                                                <div class="center-menu__line">
+                                                    <input type="email" name="email" id="email"
+                                                        class="center-menu__input" placeholder="example@gmail.com"
+                                                        autofocus autocomplete="on" value="" required>
+                                                    <!-- кнопка отправить на сервер-->
+                                                    <!-- если нет текста нужно указать aria-label="кнопка отправить" -->
+                                                    <button class="center-menu__button _icon-right" type="submit"
+                                                        aria-label="кнопка отправить"></button>
+                                                </div>
+
+                                                <!-- <label for="agree">
+                                                            <input class="center-menu__real" type="checkbox" id="agree"
+                                                                name="agree" checked />
+                                                            Я прочитал Условия соглашения и
+                                                            согласен с условиями</label>
+                                                        <label for="agree">
+                                                            <input class="center-menu__custom" type="checkbox"
+                                                                id="agree" name="agree" checked />
+                                                            Я прочитал Условия соглашения и
+                                                            согласен с условиями</label> -->
+
+                                                <label>
+                                                    <input class="center-menu__real" type="checkbox" id="agree"
+                                                        name="agree" />
+                                                </label>
+                                                <label>
+                                                    <input class="center-menu__custom" type="checkbox" id="agree"
+                                                        name="agree" checked />
+                                                    Я&#160;прочитал Условия соглашения и
+                                                    согласен с&#160;условиями</label>
+
+                                            </form>
+
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="footer__bottom bottom-footer">
+                <div class="bottom-footer__container">
+                    <div class="bottom-footer__body">
+                        <div class="bottom-footer__left">Все материалы, размещенные на&#160;сайте, носят справочный
+                            характер
+                            и&#160;не&#160;являются
+                            публичной офертой, определяемойположениями Статьи 437 Гражданского кодекса
+                            Российской
+                            Федерации.
+                            При копировании материалов гиперссылка на&#160;www.zlatmax.ru обязательна!</div>
+                        <div class="bottom-footer__right">Златоустовские ножи www.zlatmax.ru &#169;</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script src="./files/swiper-bundle.min.js"></script>
+    <script src="./files/jquery-3.6.0.min.js"></script>
+    <script src="./js/index.bundle.js"></script>
+</body>
+
+</html>
